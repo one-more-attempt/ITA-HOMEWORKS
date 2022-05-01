@@ -1,0 +1,17 @@
+.main {
+    &__content {
+        padding: 20px 20px;
+
+        &__form {
+            @include border(1px, solid, black, 10px);
+            @include size(80%, inherit, 50px);
+            margin: 0 auto;
+            padding: 20px;
+
+            &__text-area {
+                min-height: 200px !important;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
