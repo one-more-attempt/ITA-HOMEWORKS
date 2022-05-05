@@ -12,8 +12,6 @@ export class Header {
     const { firstName, lastName, email } = getUser();
 
     const showFirstLetterOnUserImage = (userName, userImage) => {
-      console.log(userName);
-      console.log (userName.slice (0,1));
       userImage.innerText = `${userName.slice (0,1)}`
     };
 
